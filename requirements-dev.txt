@@ -1,10 +1,12 @@
 black
 coveralls
 flake8
+m2r
 pre-commit
 pytest-cov
 pytest-mock
 pytest-mpl
 pytest>=4.3.0
 sphinx
+sphinx_rtd_theme
 twine

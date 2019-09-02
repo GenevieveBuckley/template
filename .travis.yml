@@ -1,0 +1,15 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+before_install:
+  - pip install -r requirements.txt
+  - pip install -r requirements-dev.txt
+  install:
+  - pip install -e .
+script:
+  - py.test --cov .
+  - flake8
+after_success: coveralls
