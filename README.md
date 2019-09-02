@@ -33,6 +33,12 @@ pre-commit install
 pytest
 ```
 
+## Continuous integration services
+
+* https://travis-ci.com
+* https://coveralls.io/repos/new
+
+
 ## Build the docs
 1. Run `sphinx-quickstart` from within the `docs/` folder:
 
@@ -128,3 +134,4 @@ twine upload --repository pypi dist/*
 
 See resources:
 * https://2019.pycon-au.org/talks/shipping-your-first-python-package-and-automating-future-publishing
+* https://medium.com/mobileforgood/5-tips-to-optimise-your-travis-ci-file-eced09d2d74e
