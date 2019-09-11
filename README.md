@@ -73,6 +73,12 @@ extensions = ['m2r',
 ]
 ```
 
+Optional: Change the documentation theme to something other than the default: `html_theme = 'alabaster'`. Eg:
+
+```
+pip install sphinx_rtd_theme
+html_theme = 'sphinx_rtd_theme'
+```
 
 4. Build the html documentation
 ```
